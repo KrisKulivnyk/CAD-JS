@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CAD JavaScript</title>
+  </head>
+  <body>
+    <form id="signInForm">
+      <p data-form-error></p>
+      <fieldset>
+        <legend>Имя пользователя</legend>
+        <input type="text" name="username" placeholder="john.snow">
+        <p data-form-input-error="username"></p>
+      </fieldset>
+      <fieldset>
+        <legend>Пароль</legend>
+        <input type="password" name="password" placeholder="password">
+        <p data-form-input-error="password"></p>
+      </fieldset>
+      <p>
+        <button type="submit">Войти</button>
+      </p>
+    </form>
+    <script type="text/javascript" src="/public/scripts/api.js"></script>
+    <script type="text/javascript" src="/public/scripts/signIn.js"></script>
+  </body>
+</html>
